@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header .logo {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.food {
+    background: url(' https://media.istockphoto.com/id/1143693080/photo/indian-food-and-indian-cuisine-dishes-top-view.jpg?s=612x612&w=0&k=20&c=5Mxd61e0OLSOLEao32LAIdoVd25x36hY95RW3hEMj5c=') no-repeat center center/cover;
+    color: #fff;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.btn1 {
+    background: #cb3419;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.menu, .about, .contact {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.menu h2, .about h2, .contact h2 {
+    margin-bottom: 20px;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.menu-item {
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    width: 200px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
